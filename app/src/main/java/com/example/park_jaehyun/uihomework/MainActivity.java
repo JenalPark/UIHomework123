@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-                getSupportActionBar().setHomeAsUpIndicator(android.R.drawable.ic_dialog_info);
+                //getSupportActionBar().setHomeAsUpIndicator(android.R.drawable.ic_dialog_info);
                 if (savedInstanceState == null) {
                     getSupportFragmentManager().beginTransaction()
                             .add(R.id.container, MessageFragment.newInstance("Main"))
